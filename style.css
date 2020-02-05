@@ -1,0 +1,121 @@
+body {
+  background-image: url("./images/tech-background.jpg");
+  font-family: 'Poppins', sans-serif;
+  line-height: 30px;
+}
+
+h1,h2 {
+  text-align: center;
+  color: rgb(19,60,85);
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  color: #575F7D;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(18,55,78);
+  margin: 0px 0px 20px 0px;
+}
+
+li a{
+  font-size: 40px;
+  color: rgb(100,0,220);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(180,0,220);
+}
+
+.title {
+  padding: 5px 0px 0px 0px;
+  margin: 10px 0px;
+}
+
+.card {
+  text-align: center;
+  background-color: white;
+  box-shadow: 5px 5px rgba(0,0,0,0.02);
+  margin: 20px;
+  padding: 5px 0px;
+  border-radius: 2%;
+}
+
+#primary-picture {
+  border-radius: 50%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+iframe {
+  width: 100%;
+  height: 80%;
+}
+
+.container {
+  width:50%;
+  margin:0 auto;
+}
+
+.list-inline > li{
+  display: inline-block;
+  padding:0px 20px;
+}
+
+#img_div{
+ width: 270px;
+ height: 300px;
+ margin: 0 auto;
+}
+
+@media (max-width: 960px){
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  h1 {
+    width: 80%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  .container {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #img_div {
+    width: 230px;
+  }
+  .btn-blue{
+    width: 70%;
+  }
+}
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
